@@ -512,6 +512,6 @@ setTimeout(() => {
 });
 
 
-bot.login(botSettings.token);
+bot.login(process.env.BOT_TOKEN);
 
 process.on("unhandledRejection", console.error)
