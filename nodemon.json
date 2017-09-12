@@ -1,0 +1,4 @@
+{
+    "ignore": ["mutes.json", "sales.json", "userData.js"]
+
+}
